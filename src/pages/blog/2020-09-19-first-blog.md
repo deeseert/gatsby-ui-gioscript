@@ -8,8 +8,6 @@ featuredimage: /img/apple-touch-icon.png
 tags:
   - javascript
 ---
-This is my first blog from Contentful CMS. 
-
-
+This is my first blog from Netlify CMS. 
 
 `console.log('hi');`
