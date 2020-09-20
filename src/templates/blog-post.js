@@ -1,3 +1,5 @@
+// SINGLE BLOG POST PAGE
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
@@ -101,3 +103,52 @@ export const pageQuery = graphql`
     }
   }
 `
+
+
+
+
+
+
+
+
+// `
+// {
+//   "data": {
+//     "allMarkdownRemark": {
+//       "edges": [
+//         {
+//           "node": {
+//             "id": "d1bc776c-459a-5d74-bcef-7d4b2cb4f8b6"
+//           }
+//         },
+//         {
+//           "node": {
+//             "id": "1a588d44-7cec-55df-9476-18c24e624ced"
+//           }
+//         },
+//         {
+//           "node": {
+//             "id": "94a5907a-7693-578a-8bb2-8aacb5d32441"
+//           }
+//         },
+//         {
+//           "node": {
+//             "id": "876be687-b998-5bcc-8958-5ede5ce23618"
+//           }
+//         },
+//         {
+//           "node": {
+//             "id": "8a663e92-08d2-50c3-b0cd-4ab19fcfe76e"
+//           }
+//         },
+//         {
+//           "node": {
+//             "id": "0c707d65-758c-5057-a3ae-11a44b9e7bf4"
+//           }
+//         }
+//       ]
+//     }
+//   },
+//   "extensions": {}
+// }
+// `
